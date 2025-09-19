@@ -1,0 +1,33 @@
+# ROS2 / colcon build artifacts
+build/
+install/
+log/
+
+# In case relative paths created elsewhere
+/build
+/install
+/log
+
+# Colcon layout marker
+.colcon_install_layout
+
+# CMake / cache miscellany
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+cmake_install.cmake
+Makefile
+
+# Editor / temp
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python cache (if any scripts)
+__pycache__/
+*.pyc
+
+# Archive outputs
+*.zip
